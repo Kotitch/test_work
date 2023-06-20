@@ -1,0 +1,428 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    color: #29374E;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+button {
+    all: unset;
+}
+
+#langRu {
+    color: #0962E8;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+#langEn,
+#langRu {
+    padding: 3.5px 4.5px;
+}
+
+.switch_lang {
+    padding-top: 22px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fs38 {
+    font-size: 38px;
+}
+
+.main_sec {
+    background-color: #CBECFF;
+    height: 69.7vh;
+    border-radius: 0 0 8px 8px;
+}
+
+.logo {
+    font-size: 64px;
+
+}
+
+.text_logo {
+    color: #0962E8;
+    background-color: #fff;
+    padding: 2px 18px;
+    border-radius: 20px;
+    margin-left: 5px;
+    letter-spacing: 0.006em;
+}
+
+.left_content {
+    margin-top: 8%;
+    margin-left: 0;
+}
+
+.main_text {
+    font-size: 22px;
+    margin-top: 6%;
+    line-height: 130%;
+    max-width: 326px;
+}
+
+.cta {
+    width: 199px;
+    height: 51.47px;
+    background: #0962E8;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    margin-top: 13.5%;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_content {
+    margin-right: -19%;
+    margin-top: -5%;
+}
+
+.right_content>img {
+    width: 100%;
+}
+
+.lower_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -9%;
+}
+
+.lower_box {
+    background: #FFFFFF;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    width: 23.536%;
+    height: 118px;
+    display: flex;
+    align-items: center;
+}
+
+.lower_box>p {
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.lower_box>i {
+    font-size: 20px;
+    background: #EFF9FF;
+    padding: 5px 5px;
+    border-radius: 100%;
+    margin-top: -20%;
+}
+
+.edit_p {
+    max-width: 95px;
+}
+
+/* Под вопросом изменения */
+.title_second_tx {
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 55px;
+}
+
+.title_second_tx>h1>span,
+.left_foot_content>h1>span {
+    color: #0962E8;
+}
+
+.second_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.second_cont_box {
+    background: #E9F6FF;
+    height: 328px;
+    width: 49.024%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.sec_left>h2 {
+    margin-bottom: 10%;
+}
+
+.sec_right {
+    margin-top: 37px;
+}
+
+.sec_left {
+    margin-left: 20px;
+    margin-top: 37px;
+    line-height: 140%;
+}
+
+.edit_sec_img {
+    margin-right: -13px;
+    filter: drop-shadow(8px -8px 16px rgba(0, 0, 0, 0.06));
+}
+
+.edit_img_lvl_1 {
+    margin-right: 25px;
+    filter: drop-shadow(8px -8px 16px rgba(0, 0, 0, 0.06));
+}
+
+.footer_content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+footer {
+    height: 60vh;
+}
+
+.footer_box {
+    display: flex;
+    width: 49.024%;
+    margin: 0;
+}
+
+.left_foot_content>p {
+    margin-top: 30px;
+    max-width: 405px;
+    margin-left: 0;
+    font-weight: 500;
+}
+
+.right_foot_content {
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content_box {
+    width: 241px;
+    height: 140px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.content_box>p {
+    max-width: 200px;
+}
+
+.circle>i {
+    font-size: 38px;
+    top: -6px;
+    left: -10px;
+    position: absolute;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #E9F6FF;
+    position: relative;
+    margin-left: 23px;
+    margin-bottom: 15px;
+}
+
+.coin {
+    margin-left: 22px;
+    margin-bottom: 15px;
+}
+
+.min_coin{
+    display: none;
+}
+
+@media(max-width:440px) {
+    .container {
+        max-width: 345px;
+    }
+
+    .main_content {
+        flex-direction: column-reverse;
+    }
+
+    .main_sec {
+        height: 1040px;
+    }
+
+    .right_content {
+        margin-right: 0;
+        margin-left: -13%;
+    }
+
+    .right_content {
+        width: 60vh;
+    }
+
+    .main_text {
+        font-size: 16px;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .cta {
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .left_content {
+        margin-top: -13%;
+        margin-right: 0;
+    }
+
+    .lower_content {
+        flex-wrap: wrap;
+        gap: 20px 15px;
+        margin-top: 5%;
+    }
+
+    .lower_box {
+        width: 47.54%;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .lower_box>p,
+    .edit_p {
+        max-width: 135px;
+    }
+
+    .fs16 {
+        font-size: 14px;
+    }
+
+    .edit_p>br {
+        display: none;
+    }
+
+    .lower_box>i {
+        margin: -19px 0 0 17px;
+    }
+
+    .edit_icon>i {
+        margin-top: -28px;
+    }
+
+    .fs38 {
+        font-size: 24px;
+    }
+
+    .title_second_tx {
+        margin-top: 40px;
+    }
+
+    .second_content {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .second_cont_box {
+        width: 100%;
+        justify-content: unset;
+        height: 215px;
+    }
+
+    .sec_left>p {
+        font-size: 13px;
+    }
+
+    .fs20 {
+        font-size: 16px;
+    }
+
+    .sec_left {
+        margin-top: 25px;
+        margin-left: 16px;
+    }
+
+    .sec_right>img {
+        width: 142px;
+        height: 190px;
+    }
+
+    .edit_sec_img {
+        margin-right: 22px;
+    }
+
+    .sec_right {
+        margin-top: 25px;
+    }
+
+    .footer_content {
+        margin-top: 40px;
+        flex-direction: column;
+
+    }
+
+    .footer_box {
+        width: 100%;
+    }
+
+    .left_foot_content {
+        text-align: center;
+    }
+
+    .content_box {
+        width: 164px;
+        height: 118px;
+        background: #FFFFFF;
+        box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+    }
+
+    .content_box>p{
+        margin-left: 18px;
+    }
+
+    .coin{
+        display: none;
+    }
+    .min_coin{
+        display: block;
+        margin-left: 18px;
+        margin-top: -24px;
+    }
+    .circle>i{
+        font-size: 22px;
+        top: 3px;
+        left: 3px;
+    }
+    .right_foot_content{
+        margin-top: 32px;
+    }
+
+}
